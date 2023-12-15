@@ -32,8 +32,8 @@ const Body =()=>{
             <h1>Our Menu</h1>
             <div className='navbar'>
                 <button  onClick={handleReset}>All</button>
-                {showBreakfastButton && <button id="filter-btn-1" data-test-id="menu-item-breakfast" onClick={handleBreakfast}>Breakfast</button>}
-          {showLunchButton && <button id="filter-btn-2" data-test-id="menu-item-lunch" onClick={handleLunch}>Lunch</button>}
+                { <button id="filter-btn-1" data-test-id="menu-item-breakfast" onClick={handleBreakfast}>Breakfast</button>}
+          {<button id="filter-btn-2" data-test-id="menu-item-lunch" onClick={handleLunch}>Lunch</button>}
           {showShakesButton && <button id="filter-btn-3" data-test-id="menu-item-shakes" onClick={handleShakes}>Shakes</button>}
             </div>
             </div>
