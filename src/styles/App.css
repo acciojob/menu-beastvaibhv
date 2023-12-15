@@ -9,4 +9,18 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    width : 300px;
+    display: flex;
 }
