@@ -5,7 +5,7 @@ const MenuItem = (props)=>{
 
      
     return(
-        <div className = "main-container" data-test-id={"menu-item"+props.item.category}>
+        <div className = "main-container" data-test-id={"menu-item-"+props.item.category}>
             <div className='food-image' >
                <img src={props.item.img}></img>
             </div>
