@@ -23,14 +23,14 @@ const Body =()=>{
         setFilteredMenu(menu.filter((item)=>item.category === "shakes"))
       };
     return(
-        <div>
+        <div id= "main" >
             <div>
             <h1>Our Menu</h1>
             <div className='navbar'>
-                <button onClick={handleReset}>All</button>
-                <button onClick= {handleBreakfast}>Breakfast</button>
-                <button onClick={handleLunch}>Lunch</button>
-                <button onClick={handleShakes}>Shakes</button>
+                <button  onClick={handleReset}>All</button>
+                <button id="filter-btn-1" onClick= {handleBreakfast}>Breakfast</button>
+                <button id="filter-btn-2" onClick={handleLunch}>Lunch</button>
+                <button  id="filter-btn-3"onClick={handleShakes}>Shakes</button>
             </div>
             </div>
             <div className="menu-list">
