@@ -7,16 +7,16 @@ const MenuItem = (props)=>{
     return(
         <div className = "main-container">
             <div className='food-image' >
-               <img src={props.img}></img>
+               <img src={props.item.img}></img>
             </div>
             <div className='food-description'>
                 <div>
-                    <h3>{props.title}</h3>
-                    <h3>${props.price}</h3>
+                    <h3>{props.item.title}</h3>
+                    <h3>${props.item.price}</h3>
                 </div>
                 <hr/>
                 <div>
-                    <p>{props.desc}</p>
+                    <p>{props.item.desc}</p>
                 </div>
 
             </div>

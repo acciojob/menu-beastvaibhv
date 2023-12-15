@@ -34,7 +34,7 @@ const Body =()=>{
             </div>
             </div>
             <div className="menu-list">
-                {filteredMenu.map((item) => <MenuItem props = {item} key={item.id}/>)}
+                {filteredMenu.map((item) => <MenuItem item = {item} key={item.id}/>)}
             </div>
         </div>
     )
